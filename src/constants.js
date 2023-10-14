@@ -11,6 +11,8 @@ export const CDN_BASE_URL = 'https://cdn.satellite.earth';
 
 // Relays for non-signed in users
 export const DEFAULT_RELAYS = [
+	'wss://offchain.pub',
+/*
 	//'ws://localhost:3030'
 	'wss://relay.damus.io',
 	'wss://nos.lol',
@@ -21,6 +23,7 @@ export const DEFAULT_RELAYS = [
 	'wss://relay.plebstr.com',
 	'wss://relay.nostr.band',
 	'wss://nostr.wine'
+*/
 ];
 
 export const COLORS = {
