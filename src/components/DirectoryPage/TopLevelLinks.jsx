@@ -57,30 +57,15 @@ const mapState = ({ active, app }) => {
 		mobile: app.mobile,
 		links: ([
 			{
-				key: 'cdn',
-				label: 'Media Hosting',
-				route: '/cdn'
-			},
-			{
-				key: 'nip05',
-				label: 'NIP-05 Verify',
-				route: `/verify`
+				key: 'snort',
+				label: 'snort.offchain.pub',
+				href: 'https://snort.offchain.pub/global'
 			},
 			{
 				key: 'opensource',
 				label: 'Open Source',
 				href: 'https://github.com/lovvtide/satellite-web'
 			},
-			{
-				key: 'theory',
-				label: 'Theory',
-				route: `/theory`
-			},
-			{
-				key: 'guide',
-				label: 'LN ⚡',
-				route: `/ln`
-			}
 		]).filter(item => {
 			return item;
 		})
